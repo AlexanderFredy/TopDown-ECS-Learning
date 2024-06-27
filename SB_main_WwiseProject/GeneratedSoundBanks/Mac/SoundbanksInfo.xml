@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{8E3F3140-9028-6F34-60FB-4630F34C8C01}">
+			<ShortName>Main_SoundBank</ShortName>
+			<Path>Main_SoundBank.bnk</Path>
+			<Media>
+				<File Id="45678530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hummer_sound.wav</ShortName>
+					<CachePath>SFX/hummer_sound_818F3B66.wem</CachePath>
+				</File>
+				<File Id="60722775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword_knock.wav</ShortName>
+					<CachePath>SFX/sword_knock_818F3B66.wem</CachePath>
+				</File>
+				<File Id="387251011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>throw_spire.wav</ShortName>
+					<CachePath>SFX/throw_spire_818F3B66.wem</CachePath>
+				</File>
+				<File Id="697510648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>steps_5.wav</ShortName>
+					<CachePath>SFX/steps_5_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="999667645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>grab-item.wav</ShortName>
+					<CachePath>SFX/grab-item_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="130877718" Name="Play_grab_item" DurationType="OneShot" DurationMin="0.62693876" DurationMax="0.62693876">
+					<MediaRefs>
+						<MediaRef Id="999667645"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1351192480" Name="Play_hummer_sound" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.6834468" DurationMax="1.6834468">
+					<MediaRefs>
+						<MediaRef Id="45678530"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="998478635" Name="Play_steps_5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="697510648"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2197623208" Name="Play_sword_knock" DurationType="OneShot" DurationMin="0.54040813" DurationMax="0.54040813">
+					<MediaRefs>
+						<MediaRef Id="60722775"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2006539098" Name="Play_sword_strike" DurationType="OneShot" DurationMin="0.20897959" DurationMax="0.20897959">
+					<MediaRefs>
+						<MediaRef Id="387251011"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{ADA0A41B-1F81-7100-3613-B979DEA576AF}</FileHash>
+</SoundBanksInfo>

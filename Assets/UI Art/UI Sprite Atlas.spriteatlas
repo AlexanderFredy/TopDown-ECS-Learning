@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b832d179d403c1144a7b97957c1eeee6, type: 3}
+    - {fileID: 2800000, guid: be513bd36803ecb4a9a8ac79854bfa95, type: 3}
+    - {fileID: 2800000, guid: a6bdac65bb6d97d448fad88420d7413c, type: 3}
+    - {fileID: 2800000, guid: 92ae777f623f539418e9300bccc2ccdf, type: 3}
+    - {fileID: 2800000, guid: be18bcc823057e54db104807ab0dffb9, type: 3}
+    - {fileID: 2800000, guid: 6d6088174bb906b49ad8428526ee337b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: be513bd36803ecb4a9a8ac79854bfa95, type: 3}
+  - {fileID: 21300000, guid: a6bdac65bb6d97d448fad88420d7413c, type: 3}
+  - {fileID: 21300000, guid: 6d6088174bb906b49ad8428526ee337b, type: 3}
+  - {fileID: 21300000, guid: be18bcc823057e54db104807ab0dffb9, type: 3}
+  - {fileID: 21300000, guid: b832d179d403c1144a7b97957c1eeee6, type: 3}
+  - {fileID: 21300000, guid: 92ae777f623f539418e9300bccc2ccdf, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button_icon113
+  - eye
+  - d_iconundo@2x
+  - sword_icon
+  - button_icon69
+  - inv_chest
+  m_RenderDataMap: {}
+  m_Tag: UI Sprite Atlas
+  m_IsVariant: 0

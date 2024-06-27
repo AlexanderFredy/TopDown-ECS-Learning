@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e686ddb5744f343b6bd6008a4cd072, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 8422892626600285392, guid: 2b844351ea9b0a54a934e29a46b59828, type: 3}
+  healthPrefab: {fileID: 2237226400872091570, guid: 3dd5e2aa1b3ae8f4c9733313b54d5f4a, type: 3}
+  enemyPrefabKnight: {fileID: 6052328590247244901, guid: e8745ac6076b1c14383699ab5a1a6d00, type: 3}
+  enemyPrefabWarlock: {fileID: 8729790947272414427, guid: 6a0e531e6850e56419bdc4006c233ea9, type: 3}
+  enemySpawner: {fileID: 1835945218595842459, guid: 7d111761196732d459fbfe2dcb18519d, type: 3}

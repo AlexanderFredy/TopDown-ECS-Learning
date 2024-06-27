@@ -1,0 +1,34 @@
+{
+    "name": "UIControls",
+    "maps": [
+        {
+            "name": "UIActionMap",
+            "id": "c6a3c3a3-a9b4-4562-a45a-a83d0e3d1ade",
+            "actions": [
+                {
+                    "name": "InventoryCloseOpen",
+                    "type": "Button",
+                    "id": "29e5e4de-a516-4e6f-a16a-5ebb53127fed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3ebad1fe-ccd1-4b66-a838-cd4bd14a4d3f",
+                    "path": "<Keyboard>/v",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InventoryCloseOpen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

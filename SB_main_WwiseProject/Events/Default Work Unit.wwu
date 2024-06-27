@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_grab_item" ID="{C31CD4DF-9F41-406B-8C32-3E3895F75C77}">
+					<ChildrenList>
+						<Action Name="" ID="{674E9B4E-2419-4014-8D07-DB3BCE004F8C}" ShortID="768937180">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grab-item" ID="{529D95F0-C9AB-489A-BE02-01EE0318669A}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hummer_sound" ID="{F80E9124-8C33-4E74-B772-E259E679EED4}">
+					<ChildrenList>
+						<Action Name="" ID="{DF12ADF8-6BF6-4E5A-BD96-0270C5DE9B5D}" ShortID="312863684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hummer_sound" ID="{06C20399-FB2F-4799-A031-80AE943945A7}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sword_strike" ID="{726B7436-48CB-43DF-8036-47BC9443D53A}">
+					<ChildrenList>
+						<Action Name="" ID="{BFCB4916-1E28-4DCF-BFEE-EE157793E53F}" ShortID="902402588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sword_strike" ID="{301D1853-A2BF-446D-A260-C541AE24C395}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sword_knock" ID="{EE92506C-E3EF-42AD-A3FB-F4F44C98DAE3}">
+					<ChildrenList>
+						<Action Name="" ID="{AE9E065E-6E35-47F0-817B-FFEDBE029836}" ShortID="419061643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sword_knock" ID="{523471EB-2CFB-4679-BED4-942288988116}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_steps_5" ID="{22C448BA-0793-41DB-871B-52E73EBA79A6}">
+					<ChildrenList>
+						<Action Name="" ID="{71813645-A09F-499F-8BB8-B89F30C35950}" ShortID="1040927204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="steps_5" ID="{9CDE1EA3-B036-46E8-97AE-1FF667335576}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_medival_music" ID="{44364082-99FC-452C-BC2A-4CCE13274523}">
+					<ChildrenList>
+						<Action Name="" ID="{26B5886F-36B7-4C61-A5A4-96975F82EF0F}" ShortID="75305048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="medival_music" ID="{1869F8AC-0696-495D-AD17-B04FCB5C4D0A}" WorkUnitID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

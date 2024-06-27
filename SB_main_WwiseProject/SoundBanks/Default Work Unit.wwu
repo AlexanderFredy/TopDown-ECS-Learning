@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12808C8B-3CED-4759-91FA-7EFCC94206E0}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{12808C8B-3CED-4759-91FA-7EFCC94206E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_SoundBank" ID="{5B3A1615-3A26-40F5-AA14-4BF67A82783C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_grab_item" ID="{C31CD4DF-9F41-406B-8C32-3E3895F75C77}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_steps_5" ID="{22C448BA-0793-41DB-871B-52E73EBA79A6}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sword_knock" ID="{EE92506C-E3EF-42AD-A3FB-F4F44C98DAE3}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sword_strike" ID="{726B7436-48CB-43DF-8036-47BC9443D53A}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_medival_music" ID="{44364082-99FC-452C-BC2A-4CCE13274523}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_hummer_sound" ID="{F80E9124-8C33-4E74-B772-E259E679EED4}" WorkUnitID="{20ABD57B-1B40-4C16-B53A-8F2CE98F706B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

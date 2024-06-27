@@ -1,0 +1,29 @@
+{
+    "name": "MiddleProject",
+    "rootNamespace": "",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:60bfecf5cb232594891bc622f40d6bed",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:7bb1ee73ebb9f114188944f67b1333d6",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:e9feb0914a3a6b54c8c09226f1b25c55",
+        "GUID:ff6de30450f3748908ff580f6ec64d9a",
+        "GUID:fbf00505d06d8b04d869cde2bcec6a69",
+        "GUID:ad968d605628d06499b62cdc30f11cf8",
+        "GUID:08d1c582746949b40ba6a45cdb776bdf",
+        "GUID:90d39a603bd74b241b31b0a9482069c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

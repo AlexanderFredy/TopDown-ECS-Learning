@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	130877718	Play_grab_item			\Default Work Unit\Play_grab_item	
+	998478635	Play_steps_5			\Default Work Unit\Play_steps_5	
+	1351192480	Play_hummer_sound			\Default Work Unit\Play_hummer_sound	
+	1390414606	Play_medival_music			\Default Work Unit\Play_medival_music	
+	2006539098	Play_sword_strike			\Default Work Unit\Play_sword_strike	
+	2197623208	Play_sword_knock			\Default Work Unit\Play_sword_knock	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3179072447	SpeedCharacter			\Default Work Unit\SpeedCharacter	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	45678530	hummer_sound	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\hummer_sound_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\hummer_sound		148576
+	60722775	sword_knock	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\sword_knock_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sword_knock		47760
+	387251011	sword_strike	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\throw_spire_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sword_strike		36960
+	487013077	medival_music	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\medival_music_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\medival_music		23357890
+	697510648	steps_5	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\steps_5_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps_5		982388
+	999667645	grab-item	D:\UnityProjects\Skillbox\SB_main\SB_main_WwiseProject\.cache\Windows\SFX\grab-item_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\grab-item		55392
+

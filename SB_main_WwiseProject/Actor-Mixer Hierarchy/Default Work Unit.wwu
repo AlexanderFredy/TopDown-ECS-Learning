@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4B2C3474-5D5A-4DBC-8FB2-1F99FE3BEB12}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="grab-item" ID="{529D95F0-C9AB-489A-BE02-01EE0318669A}" ShortID="127324644">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="grab-item" ID="{790681E2-76DF-4F57-B255-689562CBD678}">
+							<Language>SFX</Language>
+							<AudioFile>grab-item.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="999667645"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="grab-item" ID="{790681E2-76DF-4F57-B255-689562CBD678}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="hummer_sound" ID="{06C20399-FB2F-4799-A031-80AE943945A7}" ShortID="144287296">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="CircleAttenuation" ID="{8596B4B7-E379-4916-AD81-A3C0CCDC66CB}" WorkUnitID="{25DFFF18-4E00-47FA-B773-DD938D52615C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="hummer_sound" ID="{4699B0B9-CA79-44D7-92F8-7B186605DF11}">
+							<Language>SFX</Language>
+							<AudioFile>hummer_sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="45678530"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="hummer_sound" ID="{4699B0B9-CA79-44D7-92F8-7B186605DF11}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sword_strike" ID="{301D1853-A2BF-446D-A260-C541AE24C395}" ShortID="508733246">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="throw_spire" ID="{D20CA43F-D139-462F-82B2-2D4505D12A2C}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="0.17"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>throw_spire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="387251011"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="throw_spire" ID="{D20CA43F-D139-462F-82B2-2D4505D12A2C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sword_knock" ID="{523471EB-2CFB-4679-BED4-942288988116}" ShortID="1047947290">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sword_knock" ID="{2972BC90-81B0-4132-B992-5A86A16E3555}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="0.5"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sword_knock.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="60722775"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sword_knock" ID="{2972BC90-81B0-4132-B992-5A86A16E3555}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="steps_5" ID="{9CDE1EA3-B036-46E8-97AE-1FF667335576}" ShortID="1050386814">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="steps_5" ID="{617FE52C-CCB9-4EEF-BB1D-85DF5C70C93A}">
+							<Language>SFX</Language>
+							<AudioFile>steps_5.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="697510648"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0C4D5487-987A-468F-8A7F-EEF7048B2368}" ShortID="1064500561">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SpeedCharacter" ID="{E2B2BA34-A2C3-4F04-B391-E65ACF79D805}" WorkUnitID="{855E6B1F-F430-403E-9EA2-4DD21FCD060E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{2ED01710-285F-47CD-8243-3D235D178205}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1054</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>1894</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="steps_5" ID="{617FE52C-CCB9-4EEF-BB1D-85DF5C70C93A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="medival_music" ID="{1869F8AC-0696-495D-AD17-B04FCB5C4D0A}" ShortID="28516444">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6EAA1EA-0D3D-4D6F-BA64-75C8A0AAB75E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC0EF68E-3EEF-427A-888F-CF35CC90F96C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="medival_music" ID="{EE930518-F5C8-418B-AD2B-9AB2F07306F0}">
+							<Language>SFX</Language>
+							<AudioFile>medival_music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="487013077"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="medival_music" ID="{EE930518-F5C8-418B-AD2B-9AB2F07306F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
